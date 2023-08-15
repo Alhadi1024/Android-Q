@@ -1,0 +1,13 @@
+service vndcopy_svc /vendor/bin/vndcopy
+    class late_start
+    user root
+    group system
+    oneshot
+    disabled
+
+on property:vendor.execmd.vc.trigger=0
+    stop vndcopy_svc
+
+on property:vendor.execmd.vc.trigger=1
+    start vndcopy_svc
+

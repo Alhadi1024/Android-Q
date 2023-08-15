@@ -1,0 +1,21 @@
+on post-fs-data
+    mkdir /data/vendor/tmpDeviceBing 2776 root system
+    chmod 2776 /data/vendor/tmpDeviceBing
+    mkdir /data/vendor/tmpiceBinding 2770 root system
+    chmod 2770 /data/vendor/tmpiceBinding
+    copy /mnt/vendor/persist/mcRegistry/00000000.authtokcont /data/vendor/mcRegistry/00000000.authtokcont
+    chmod 664 /data/vendor/mcRegistry/00000000.authtokcont
+    chown system system /data/vendor/mcRegistry/00000000.authtokcont
+    
+on property:vendor.execmd.tstc=1
+    rm /data/vendor/tmpDeviceBing/receipt.*
+    write /data/vendor/tmpiceBinding/cmp_genbindinkey.bin 0
+    write /data/vendor/tmpiceBinding/pskey.pem 0
+    write /data/vendor/mcRegistry/00000000.authtokcont 0
+    chmod 664 /data/vendor/mcRegistry/00000000.authtokcont
+    chown system system /data/vendor/mcRegistry/00000000.authtokcont
+
+on property:vendor.execmd.tstc=0
+    write /data/vendor/tmpiceBinding/cmp_genbindinkey.bin 0
+    write /data/vendor/tmpiceBinding/pskey.pem 0
+    rm /data/vendor/execommand/*
