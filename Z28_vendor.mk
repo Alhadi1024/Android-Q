@@ -156,14 +156,14 @@ PRODUCT_COPY_FILES += \
     vendor/symphony/Z28/proprietary/lib/vndk-sp-29/android.hardware.graphics.mapper@3.0.so:system/lib/vndk-sp-29/android.hardware.graphics.mapper@3.0.so \
     vendor/symphony/Z28/proprietary/lib/vndk-sp-29/android.hardware.renderscript@1.0.so:system/lib/vndk-sp-29/android.hardware.renderscript@1.0.so \
     vendor/symphony/Z28/proprietary/lib/vndk-sp-29/android.hidl.safe_union@1.0.so:system/lib/vndk-sp-29/android.hidl.safe_union@1.0.so \
-    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_dsds.xml:system/odm/etc/vintf/manifest_dsds.xml \
-    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_dsds_se.xml:system/odm/etc/vintf/manifest_dsds_se.xml \
-    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_dsds_se_ese.xml:system/odm/etc/vintf/manifest_dsds_se_ese.xml \
-    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_qsqs.xml:system/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_ss.xml:system/odm/etc/vintf/manifest_ss.xml \
-    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_ss_se.xml:system/odm/etc/vintf/manifest_ss_se.xml \
-    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_ss_se_ese.xml:system/odm/etc/vintf/manifest_ss_se_ese.xml \
-    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_tsts.xml:system/odm/etc/vintf/manifest_tsts.xml \
+    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_dsds.xml:vendor/odm/etc/vintf/manifest_dsds.xml \
+    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_dsds_se.xml:vendor/odm/etc/vintf/manifest_dsds_se.xml \
+    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_dsds_se_ese.xml:vendor/odm/etc/vintf/manifest_dsds_se_ese.xml \
+    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_qsqs.xml:vendor/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_ss.xml:vendor/odm/etc/vintf/manifest_ss.xml \
+    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_ss_se.xml:vendor/odm/etc/vintf/manifest_ss_se.xml \
+    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_ss_se_ese.xml:vendor/odm/etc/vintf/manifest_ss_se_ese.xml \
+    vendor/symphony/Z28/proprietary/odm/etc/vintf/manifest_tsts.xml:vendor/odm/etc/vintf/manifest_tsts.xml \
     vendor/symphony/Z28/proprietary/vendor/app/EmCamera/EmCamera.apk:system/vendor/app/EmCamera/EmCamera.apk \
     vendor/symphony/Z28/proprietary/vendor/app/EmCamera/lib/arm/libem_camera_jni.so:system/vendor/app/EmCamera/lib/arm/libem_camera_jni.so \
     vendor/symphony/Z28/proprietary/vendor/app/SensorHub/SensorHub.apk:system/vendor/app/SensorHub/SensorHub.apk \
